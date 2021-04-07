@@ -6,15 +6,15 @@
 
 Clean Architecture divides a software project into three main layers.
 
-Data ⇨ Local and / or Remote(API) data sources
-Domain ⇨ business logic(use cases) and business objects(entities) to modify or shape the data source
-Presentation ⇨ How modified data source is shown to user
+- Data ⇨ Local and / or Remote(API) data sources
+ -Domain ⇨ business logic(use cases) and business objects(entities) to modify or shape the data source
+- Presentation ⇨ How modified data source is shown to user
 
 These layers help build a Flutter application that is;
 
-Easier to modify
-Easier to test
-Easier to detect bugs & errors
+- Easier to modify
+- Easier to test
+- Easier to detect bugs & errors
 
 For further information please see the [official documentation](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
